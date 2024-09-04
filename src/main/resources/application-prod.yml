@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user-center-ding
+  datasource:
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/usermanager    -- 远程数据库地址
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+    session:
+      timeout: 86400
